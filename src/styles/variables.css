@@ -1,0 +1,14 @@
+:root {
+  --coral: #ee735a;
+  --navy: #1c2733;
+  --teal: #1b6b8a;
+  --green: #25a35a;
+  --bg: #fdfcf9;
+  --bg-soft: #eef1ee;
+  --text: #1c2733;
+  --muted: #5d6b76;
+  --radius: 2px;
+  --space: 8px;
+  --font-head: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', Arial, sans-serif;
+}

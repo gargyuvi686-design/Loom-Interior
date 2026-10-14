@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" width="900" height="1000">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e0d4"/>
+      <stop offset="100%" stop-color="#f5f0e8"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c4a882"/>
+      <stop offset="100%" stop-color="#8b6f52"/>
+    </linearGradient>
+    <linearGradient id="windowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8d4e8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#d4e8f5" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="lightGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffbe8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffd580" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="chandGlow" cx="50%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#fffbe8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fffbe8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Background wall -->
+  <rect width="900" height="1000" fill="url(#wallGrad)"/>
+
+  <!-- Ambient light glow from chandelier -->
+  <ellipse cx="450" cy="180" rx="320" ry="220" fill="url(#chandGlow)"/>
+
+  <!-- Deep wall panels -->
+  <rect x="40" y="80" width="820" height="680" fill="none" stroke="#d4c9b8" stroke-width="2"/>
+  <rect x="70" y="110" width="760" height="620" fill="none" stroke="#ccc0ae" stroke-width="1"/>
+
+  <!-- Left tall window -->
+  <rect x="80" y="120" width="160" height="380" rx="6" fill="url(#windowGrad)"/>
+  <rect x="80" y="120" width="160" height="380" rx="6" fill="none" stroke="#c8b99a" stroke-width="3"/>
+  <!-- Window panes -->
+  <line x1="160" y1="120" x2="160" y2="500" stroke="#c8b99a" stroke-width="1.5"/>
+  <line x1="80" y1="310" x2="240" y2="310" stroke="#c8b99a" stroke-width="1.5"/>
+  <!-- Window drape left -->
+  <path d="M80,120 Q60,250 75,500 L80,500 L80,120Z" fill="#d4b896" opacity="0.7"/>
+  <path d="M240,120 Q260,250 245,500 L240,500 L240,120Z" fill="#d4b896" opacity="0.7"/>
+
+  <!-- Right tall window -->
+  <rect x="660" y="120" width="160" height="380" rx="6" fill="url(#windowGrad)"/>
+  <rect x="660" y="120" width="160" height="380" rx="6" fill="none" stroke="#c8b99a" stroke-width="3"/>
+  <line x1="740" y1="120" x2="740" y2="500" stroke="#c8b99a" stroke-width="1.5"/>
+  <line x1="660" y1="310" x2="820" y2="310" stroke="#c8b99a" stroke-width="1.5"/>
+  <path d="M660,120 Q640,250 655,500 L660,500 L660,120Z" fill="#d4b896" opacity="0.7"/>
+  <path d="M820,120 Q840,250 825,500 L820,500 L820,120Z" fill="#d4b896" opacity="0.7"/>
+
+  <!-- Chandelier chain -->
+  <line x1="450" y1="0" x2="450" y2="120" stroke="#b8a080" stroke-width="3"/>
+
+  <!-- Chandelier body -->
+  <ellipse cx="450" cy="125" rx="45" ry="12" fill="#c8a855" opacity="0.9"/>
+  <rect x="430" y="125" width="40" height="18" fill="#b89848" rx="3"/>
+
+  <!-- Chandelier arms -->
+  <line x1="380" y1="135" x2="320" y2="165" stroke="#b89848" stroke-width="3"/>
+  <line x1="520" y1="135" x2="580" y2="165" stroke="#b89848" stroke-width="3"/>
+  <line x1="400" y1="132" x2="360" y2="155" stroke="#b89848" stroke-width="2.5"/>
+  <line x1="500" y1="132" x2="540" y2="155" stroke="#b89848" stroke-width="2.5"/>
+  <line x1="430" y1="143" x2="420" y2="175" stroke="#b89848" stroke-width="2"/>
+  <line x1="470" y1="143" x2="480" y2="175" stroke="#b89848" stroke-width="2"/>
+
+  <!-- Chandelier candles / lights -->
+  <ellipse cx="320" cy="168" rx="8" ry="5" fill="#fffbe0"/>
+  <ellipse cx="360" cy="157" rx="7" ry="4" fill="#fffbe0"/>
+  <ellipse cx="420" cy="178" rx="7" ry="4" fill="#fffbe0"/>
+  <ellipse cx="480" cy="178" rx="7" ry="4" fill="#fffbe0"/>
+  <ellipse cx="540" cy="157" rx="7" ry="4" fill="#fffbe0"/>
+  <ellipse cx="580" cy="168" rx="8" ry="5" fill="#fffbe0"/>
+  <!-- Flame glow -->
+  <ellipse cx="320" cy="163" rx="5" ry="8" fill="#ffd580" opacity="0.7" filter="url(#soft)"/>
+  <ellipse cx="580" cy="163" rx="5" ry="8" fill="#ffd580" opacity="0.7" filter="url(#soft)"/>
+  <ellipse cx="450" cy="155" rx="6" ry="10" fill="#ffd580" opacity="0.5" filter="url(#soft)"/>
+
+  <!-- Decorative arch/molding top -->
+  <path d="M200,80 Q450,20 700,80" fill="none" stroke="#c8b99a" stroke-width="2.5"/>
+  <path d="M220,80 Q450,30 680,80" fill="none" stroke="#d4c9b8" stroke-width="1"/>
+
+  <!-- Console table / sideboard -->
+  <rect x="270" y="490" width="360" height="18" rx="3" fill="#7a5c3e"/>
+  <rect x="310" y="508" width="8" height="60" fill="#6b4f35"/>
+  <rect x="582" y="508" width="8" height="60" fill="#6b4f35"/>
+  <rect x="270" y="506" width="360" height="5" rx="2" fill="#9a7555"/>
+
+  <!-- Decorative vase on table left -->
+  <ellipse cx="340" cy="492" rx="20" ry="8" fill="#8b6f52" opacity="0.5"/>
+  <path d="M325,492 Q320,460 330,445 Q340,435 350,445 Q360,460 355,492Z" fill="#a08060"/>
+  <ellipse cx="340" cy="445" rx="12" ry="5" fill="#c4a882"/>
+
+  <!-- Decorative vase on table right -->
+  <ellipse cx="560" cy="492" rx="18" ry="7" fill="#8b6f52" opacity="0.5"/>
+  <path d="M545,492 Q540,462 550,450 Q560,440 570,450 Q580,462 575,492Z" fill="#6a8a72"/>
+  <ellipse cx="560" cy="450" rx="10" ry="4" fill="#8aaa92"/>
+
+  <!-- Framed artwork on wall center -->
+  <rect x="370" y="200" width="160" height="200" rx="4" fill="#2c1a0e" stroke="#c8a855" stroke-width="6"/>
+  <rect x="382" y="212" width="136" height="176" rx="2" fill="#3d2a18"/>
+  <!-- Abstract art inside frame -->
+  <ellipse cx="450" cy="300" rx="50" ry="65" fill="#5a3a20" opacity="0.8"/>
+  <path d="M400,270 Q450,240 500,270 Q480,310 450,320 Q420,310 400,270Z" fill="#8b6040" opacity="0.6"/>
+  <circle cx="450" cy="280" r="25" fill="#c4a060" opacity="0.4"/>
+
+  <!-- Floor -->
+  <rect x="0" y="760" width="900" height="240" fill="url(#floorGrad)"/>
+  <!-- Floor planks -->
+  <line x1="0" y1="780" x2="900" y2="780" stroke="#9a7a5a" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="810" x2="900" y2="810" stroke="#9a7a5a" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="840" x2="900" y2="840" stroke="#9a7a5a" stroke-width="0.8" opacity="0.5"/>
+  <line x1="150" y1="760" x2="150" y2="1000" stroke="#9a7a5a" stroke-width="0.6" opacity="0.4"/>
+  <line x1="300" y1="760" x2="300" y2="1000" stroke="#9a7a5a" stroke-width="0.6" opacity="0.4"/>
+  <line x1="450" y1="760" x2="450" y2="1000" stroke="#9a7a5a" stroke-width="0.6" opacity="0.4"/>
+  <line x1="600" y1="760" x2="600" y2="1000" stroke="#9a7a5a" stroke-width="0.6" opacity="0.4"/>
+  <line x1="750" y1="760" x2="750" y2="1000" stroke="#9a7a5a" stroke-width="0.6" opacity="0.4"/>
+
+  <!-- Ornate chair left -->
+  <rect x="100" y="620" width="140" height="18" rx="4" fill="#4a3222"/>
+  <rect x="110" y="638" width="120" height="65" rx="3" fill="#7a5a3a"/>
+  <rect x="100" y="570" width="140" height="58" rx="8" fill="#5a4232"/>
+  <rect x="100" y="567" width="140" height="12" rx="5" fill="#6a5242"/>
+  <rect x="108" y="703" width="12" height="55" rx="3" fill="#3a2818"/>
+  <rect x="220" y="703" width="12" height="55" rx="3" fill="#3a2818"/>
+
+  <!-- Ornate chair right -->
+  <rect x="660" y="620" width="140" height="18" rx="4" fill="#4a3222"/>
+  <rect x="670" y="638" width="120" height="65" rx="3" fill="#7a5a3a"/>
+  <rect x="660" y="570" width="140" height="58" rx="8" fill="#5a4232"/>
+  <rect x="660" y="567" width="140" height="12" rx="5" fill="#6a5242"/>
+  <rect x="668" y="703" width="12" height="55" rx="3" fill="#3a2818"/>
+  <rect x="780" y="703" width="12" height="55" rx="3" fill="#3a2818"/>
+
+  <!-- Subtle rug -->
+  <ellipse cx="450" cy="820" rx="320" ry="80" fill="#b8977a" opacity="0.3"/>
+  <ellipse cx="450" cy="820" rx="290" ry="68" fill="none" stroke="#c8a88a" stroke-width="2" opacity="0.4"/>
+
+  <!-- Baseboard -->
+  <rect x="0" y="755" width="900" height="10" fill="#d4c9b8"/>
+  <rect x="0" y="758" width="900" height="4" fill="#ccc0ae"/>
+</svg>

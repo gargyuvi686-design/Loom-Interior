@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="gardenWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8f0e4"/>
+      <stop offset="100%" stop-color="#d8e8d2"/>
+    </linearGradient>
+    <linearGradient id="sageAccent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a9a72"/>
+      <stop offset="100%" stop-color="#608860"/>
+    </linearGradient>
+    <linearGradient id="caneFloor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4b87a"/>
+      <stop offset="100%" stop-color="#b89858"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sage green wall -->
+  <rect width="300" height="300" fill="url(#gardenWall)"/>
+
+  <!-- Subtle wall texture -->
+  <rect x="0" y="0" width="300" height="200" fill="none"/>
+  <line x1="0" y1="60" x2="300" y2="60" stroke="#c8d8c4" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="120" x2="300" y2="120" stroke="#c8d8c4" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="180" x2="300" y2="180" stroke="#c8d8c4" stroke-width="1" opacity="0.5"/>
+
+  <!-- Sage accent strip -->
+  <rect x="0" y="195" width="300" height="18" fill="url(#sageAccent)"/>
+  <rect x="0" y="195" width="300" height="4" fill="#9ab892" opacity="0.7"/>
+
+  <!-- Natural cane floor -->
+  <rect x="0" y="213" width="300" height="87" fill="url(#caneFloor)"/>
+  <!-- Cane weave pattern -->
+  <line x1="0" y1="225" x2="300" y2="225" stroke="#c0a058" stroke-width="1.2" opacity="0.5"/>
+  <line x1="0" y1="240" x2="300" y2="240" stroke="#c0a058" stroke-width="1.2" opacity="0.5"/>
+  <line x1="0" y1="255" x2="300" y2="255" stroke="#c0a058" stroke-width="1.2" opacity="0.5"/>
+  <line x1="0" y1="270" x2="300" y2="270" stroke="#c0a058" stroke-width="1.2" opacity="0.5"/>
+  <line x1="0" y1="285" x2="300" y2="285" stroke="#c0a058" stroke-width="1.2" opacity="0.5"/>
+  <line x1="40" y1="213" x2="40" y2="300" stroke="#c0a058" stroke-width="0.8" opacity="0.4"/>
+  <line x1="90" y1="213" x2="90" y2="300" stroke="#c0a058" stroke-width="0.8" opacity="0.4"/>
+  <line x1="140" y1="213" x2="140" y2="300" stroke="#c0a058" stroke-width="0.8" opacity="0.4"/>
+  <line x1="190" y1="213" x2="190" y2="300" stroke="#c0a058" stroke-width="0.8" opacity="0.4"/>
+  <line x1="240" y1="213" x2="240" y2="300" stroke="#c0a058" stroke-width="0.8" opacity="0.4"/>
+  <line x1="280" y1="213" x2="280" y2="300" stroke="#c0a058" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Large leafy plant left -->
+  <!-- Stem -->
+  <line x1="55" y1="195" x2="55" y2="100" stroke="#5a7a50" stroke-width="3"/>
+  <!-- Leaves -->
+  <path d="M55,160 Q20,140 15,110 Q40,115 55,140Z" fill="#7a9a6a"/>
+  <path d="M55,140 Q90,120 95,90 Q70,95 55,120Z" fill="#6a8a5a"/>
+  <path d="M55,120 Q20,105 12,78 Q38,83 55,105Z" fill="#8aaa7a"/>
+  <path d="M55,100 Q85,85 88,55 Q65,62 55,85Z" fill="#7a9a6a"/>
+  <!-- Large feature leaf -->
+  <path d="M55,155 Q0,120 5,70 Q35,100 55,150Z" fill="#9ab88a" opacity="0.6"/>
+
+  <!-- Cane rattan chair silhouette -->
+  <rect x="155" y="130" width="120" height="75" rx="8" fill="#c4a070" opacity="0.8"/>
+  <rect x="150" y="125" width="130" height="20" rx="6" fill="#b89060"/>
+  <rect x="148" y="85" width="135" height="48" rx="12" fill="#c4a870"/>
+  <rect x="148" y="82" width="135" height="12" rx="6" fill="#d4b880"/>
+  <!-- Cane back pattern -->
+  <line x1="185" y1="82" x2="185" y2="130" stroke="#b09060" stroke-width="1.5" opacity="0.6"/>
+  <line x1="220" y1="82" x2="220" y2="130" stroke="#b09060" stroke-width="1.5" opacity="0.6"/>
+  <line x1="255" y1="82" x2="255" y2="130" stroke="#b09060" stroke-width="1.5" opacity="0.6"/>
+  <line x1="148" y1="100" x2="283" y2="100" stroke="#b09060" stroke-width="1.5" opacity="0.6"/>
+  <line x1="148" y1="115" x2="283" y2="115" stroke="#b09060" stroke-width="1.5" opacity="0.6"/>
+  <!-- Chair legs -->
+  <rect x="158" y="205" width="10" height="40" rx="4" fill="#a07848"/>
+  <rect x="262" y="205" width="10" height="40" rx="4" fill="#a07848"/>
+
+  <!-- Cushion on chair -->
+  <ellipse cx="215" cy="130" rx="55" ry="15" fill="#8aaa7a" opacity="0.85"/>
+
+  <!-- Small botanical print on wall -->
+  <rect x="100" y="20" width="100" height="130" rx="3" fill="#fff8f0" stroke="#8aaa7a" stroke-width="4"/>
+  <rect x="108" y="28" width="84" height="114" fill="#f5f0e8"/>
+  <!-- Botanical illustration inside -->
+  <line x1="150" y1="135" x2="150" y2="70" stroke="#6a8a5a" stroke-width="2"/>
+  <path d="M150,110 Q125,95 118,75 Q140,80 150,102Z" fill="#7a9a6a"/>
+  <path d="M150,95 Q175,80 182,60 Q160,65 150,88Z" fill="#8aaa7a"/>
+  <path d="M150,78 Q130,65 125,45 Q145,50 150,72Z" fill="#6a8a5a"/>
+  <ellipse cx="150" cy="137" rx="18" ry="6" fill="#8aaa6a" opacity="0.5"/>
+
+  <!-- Label area -->
+  <rect x="0" y="255" width="300" height="45" fill="rgba(40,70,35,0.55)"/>
+  <text x="150" y="276" font-family="Georgia, serif" font-size="13" fill="white" text-anchor="middle" font-weight="500">Garden Room</text>
+  <text x="150" y="292" font-family="Arial, sans-serif" font-size="10" fill="rgba(180,220,170,0.85)" text-anchor="middle">Sage + natural cane</text>
+</svg>

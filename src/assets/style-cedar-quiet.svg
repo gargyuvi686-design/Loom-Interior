@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="cedarWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5ede0"/>
+      <stop offset="100%" stop-color="#ede0ce"/>
+    </linearGradient>
+    <linearGradient id="cedarWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b07040"/>
+      <stop offset="50%" stop-color="#c88050"/>
+      <stop offset="100%" stop-color="#a06030"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a830"/>
+      <stop offset="100%" stop-color="#b08020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Warm cream wall -->
+  <rect width="300" height="300" fill="url(#cedarWall)"/>
+
+  <!-- Cedar wood panel accent left -->
+  <rect x="0" y="0" width="100" height="210" fill="url(#cedarWood)"/>
+  <!-- Wood grain lines -->
+  <line x1="0" y1="25" x2="100" y2="25" stroke="#a06030" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="55" x2="100" y2="55" stroke="#b87040" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="80" x2="100" y2="80" stroke="#a06030" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="110" x2="100" y2="110" stroke="#b87040" stroke-width="1.2" opacity="0.4"/>
+  <line x1="0" y1="140" x2="100" y2="140" stroke="#a06030" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="170" x2="100" y2="170" stroke="#b87040" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="195" x2="100" y2="195" stroke="#a06030" stroke-width="0.8" opacity="0.5"/>
+  <!-- Wood edge highlight -->
+  <rect x="97" y="0" width="3" height="210" fill="#d4a060" opacity="0.5"/>
+
+  <!-- Brass horizontal shelf bracket -->
+  <rect x="0" y="207" width="300" height="14" fill="url(#brass)"/>
+  <rect x="0" y="207" width="300" height="3" fill="#e0c050" opacity="0.6"/>
+
+  <!-- Cream floor -->
+  <rect x="0" y="221" width="300" height="79" fill="#e8dfd0"/>
+  <!-- Floor texture -->
+  <line x1="0" y1="235" x2="300" y2="235" stroke="#d8cfc0" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="252" x2="300" y2="252" stroke="#d8cfc0" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="268" x2="300" y2="268" stroke="#d8cfc0" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="284" x2="300" y2="284" stroke="#d8cfc0" stroke-width="1.5" opacity="0.4"/>
+  <line x1="90" y1="221" x2="90" y2="300" stroke="#d8cfc0" stroke-width="0.8" opacity="0.4"/>
+  <line x1="180" y1="221" x2="180" y2="300" stroke="#d8cfc0" stroke-width="0.8" opacity="0.4"/>
+  <line x1="250" y1="221" x2="250" y2="300" stroke="#d8cfc0" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Brass pendant light on wall section -->
+  <line x1="200" y1="0" x2="200" y2="60" stroke="#c09030" stroke-width="3"/>
+  <ellipse cx="200" cy="65" rx="30" ry="10" fill="url(#brass)"/>
+  <ellipse cx="200" cy="75" rx="28" ry="9" fill="#c09030"/>
+  <ellipse cx="200" cy="84" rx="25" ry="7" fill="#d0a040"/>
+  <circle cx="200" cy="65" r="8" fill="#fff5d0" opacity="0.9"/>
+
+  <!-- Cedar picture frame on cream wall -->
+  <rect x="125" y="30" width="140" height="160" rx="3" fill="url(#cedarWood)" stroke="#d4a060" stroke-width="5"/>
+  <rect x="134" y="39" width="122" height="142" rx="2" fill="#3a2010"/>
+  <!-- Serene interior inside frame -->
+  <rect x="134" y="39" width="122" height="90" fill="#2a3a28"/>
+  <rect x="134" y="129" width="122" height="52" fill="#4a3020"/>
+  <!-- Trees silhouette -->
+  <path d="M145,129 L155,90 L165,129Z" fill="#1a2a18"/>
+  <path d="M165,129 L178,75 L191,129Z" fill="#243a22"/>
+  <path d="M185,129 L195,95 L205,129Z" fill="#1a2a18"/>
+  <path d="M205,129 L216,85 L227,129Z" fill="#243a22"/>
+  <path d="M224,129 L233,100 L242,129Z" fill="#1a2a18"/>
+  <!-- Sky glow -->
+  <ellipse cx="195" cy="95" rx="50" ry="30" fill="#3a5030" opacity="0.5"/>
+
+  <!-- Brass candlestick on shelf -->
+  <rect x="50" y="195" width="6" height="22" rx="2" fill="url(#brass)"/>
+  <ellipse cx="53" cy="195" rx="12" ry="4" fill="#c09030"/>
+  <ellipse cx="53" cy="217" rx="14" ry="5" fill="#c09030"/>
+  <rect x="50" y="185" width="6" height="12" rx="1" fill="#f0f0e0"/>
+  <ellipse cx="53" cy="185" rx="4" ry="4" fill="#fff5a0" opacity="0.8"/>
+
+  <!-- Label area -->
+  <rect x="0" y="255" width="300" height="45" fill="rgba(50,25,5,0.55)"/>
+  <text x="150" y="276" font-family="Georgia, serif" font-size="13" fill="white" text-anchor="middle" font-weight="500">Cedar Quiet</text>
+  <text x="150" y="292" font-family="Arial, sans-serif" font-size="10" fill="rgba(220,180,130,0.85)" text-anchor="middle">Cedar + soft brass</text>
+</svg>

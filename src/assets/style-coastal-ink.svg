@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#0f2540"/>
+    </linearGradient>
+    <linearGradient id="linen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ece5d8"/>
+      <stop offset="100%" stop-color="#d8cfc0"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a5080"/>
+      <stop offset="100%" stop-color="#1a3a60"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep blue wall background -->
+  <rect width="300" height="190" fill="url(#sea)"/>
+
+  <!-- Subtle texture on wall -->
+  <rect x="0" y="0" width="300" height="190" fill="none" stroke="#243d5a" stroke-width="0"/>
+  <line x1="0" y1="50" x2="300" y2="50" stroke="#243d5a" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="100" x2="300" y2="100" stroke="#243d5a" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="150" x2="300" y2="150" stroke="#243d5a" stroke-width="1" opacity="0.4"/>
+
+  <!-- Wave-like accent -->
+  <path d="M0,80 Q75,60 150,80 Q225,100 300,80 L300,95 Q225,115 150,95 Q75,75 0,95Z" fill="#2a5a8a" opacity="0.5"/>
+
+  <!-- Linen shelf -->
+  <rect x="0" y="185" width="300" height="22" fill="url(#linen)"/>
+  <rect x="0" y="185" width="300" height="4" fill="#f0e8d8" opacity="0.8"/>
+
+  <!-- Linen floor -->
+  <rect x="0" y="207" width="300" height="93" fill="#ddd4c0"/>
+  <!-- Linen weave texture -->
+  <line x1="0" y1="220" x2="300" y2="220" stroke="#c8bfb0" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="235" x2="300" y2="235" stroke="#c8bfb0" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="250" x2="300" y2="250" stroke="#c8bfb0" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="265" x2="300" y2="265" stroke="#c8bfb0" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="280" x2="300" y2="280" stroke="#c8bfb0" stroke-width="1" opacity="0.5"/>
+  <line x1="60" y1="207" x2="60" y2="300" stroke="#c8bfb0" stroke-width="0.8" opacity="0.4"/>
+  <line x1="130" y1="207" x2="130" y2="300" stroke="#c8bfb0" stroke-width="0.8" opacity="0.4"/>
+  <line x1="200" y1="207" x2="200" y2="300" stroke="#c8bfb0" stroke-width="0.8" opacity="0.4"/>
+  <line x1="260" y1="207" x2="260" y2="300" stroke="#c8bfb0" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Decorative ship/anchor on wall -->
+  <circle cx="80" cy="100" r="45" fill="#1e3a5a" stroke="#2a5080" stroke-width="2" opacity="0.8"/>
+  <line x1="80" y1="60" x2="80" y2="140" stroke="#4a7aaa" stroke-width="2.5" opacity="0.7"/>
+  <line x1="50" y1="80" x2="110" y2="80" stroke="#4a7aaa" stroke-width="2" opacity="0.7"/>
+  <path d="M60,140 Q80,155 100,140" fill="none" stroke="#4a7aaa" stroke-width="2" opacity="0.7"/>
+  <circle cx="80" cy="80" r="8" fill="#4a7aaa" opacity="0.6"/>
+
+  <!-- Coastal artwork frame -->
+  <rect x="155" y="25" width="125" height="145" rx="3" fill="#0f2030" stroke="#4a7aaa" stroke-width="4"/>
+  <rect x="163" y="33" width="109" height="129" fill="#1a3550"/>
+  <!-- Ocean scene inside -->
+  <rect x="163" y="33" width="109" height="80" fill="#1e4570"/>
+  <path d="M163,110 Q200,95 217,110 Q234,125 272,108 L272,162 L163,162Z" fill="#0f2540"/>
+  <path d="M163,100 Q200,88 220,102 Q240,116 272,100 L272,115 Q240,131 220,117 Q200,103 163,115Z" fill="#2a5a8a" opacity="0.6"/>
+  <!-- Stars in sky -->
+  <circle cx="185" cy="50" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="210" cy="42" r="1" fill="white" opacity="0.6"/>
+  <circle cx="245" cy="55" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="260" cy="44" r="1" fill="white" opacity="0.5"/>
+  <!-- Moon -->
+  <circle cx="245" cy="65" r="12" fill="#c8d8e8"/>
+  <circle cx="250" cy="62" r="9" fill="#1e4570"/>
+
+  <!-- White ceramic on shelf -->
+  <path d="M40,186 Q36,165 42,155 Q50,145 58,155 Q64,165 60,186Z" fill="#e8f0f8"/>
+  <ellipse cx="50" cy="155" rx="10" ry="4" fill="#f0f8ff"/>
+
+  <!-- Label area -->
+  <rect x="0" y="255" width="300" height="45" fill="rgba(10,25,50,0.7)"/>
+  <text x="150" y="276" font-family="Georgia, serif" font-size="13" fill="white" text-anchor="middle" font-weight="500">Coastal Ink</text>
+  <text x="150" y="292" font-family="Arial, sans-serif" font-size="10" fill="rgba(180,210,240,0.85)" text-anchor="middle">Deep blue + linen</text>
+</svg>
